@@ -18,14 +18,14 @@ function makeDecimals(nums) {
 
     //합이 소수인지 확인
     arr.map((el) => {
-      if (isProime(el)) answer++;
+      if (isDecimal(el)) answer++;
     });
   }
 
   return answer;
 }
 
-function isProime(num) {
+function isDecimal(num) {
   if (num === 2) return true;
 
   for (let i = 2; i <= Math.floor(Math.sqrt(num)); i++) {

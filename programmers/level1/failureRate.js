@@ -1,3 +1,4 @@
+//https://programmers.co.kr/learn/courses/30/lessons/42889
 function failureRate(N, stages) {
   //실패율 : 스테이지에 도달했으나 아직 클리어 하지 못한 플레이어의 수 / 스테이지에 도달한 플레이어수
   // N: 스테이지의 개수
